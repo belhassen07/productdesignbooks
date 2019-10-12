@@ -1,0 +1,40 @@
+.BookArticle .container{
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.BookArticle h1 {
+  font-size:38px;
+  margin-bottom:0;
+  width:75%;
+  line-height: calc(38px * 1.6)
+}
+.BookArticle > p {
+  margin-top: 8px;
+}
+.wrapper img {
+  width: 45%;
+}
+.BookArticle .wrapper {
+  display: flex;
+}
+.influencers {
+  padding: 20px 0;
+  background: #E8FDFF;
+  margin-top:30px;
+}
+.influencers .container> div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.BookArticle .description {
+  padding: 0 20px;
+}
+.BookArticle .description h2 {
+  margin-top: 0;
+}
+.BookArticle .description p{
+    font-size: 22px;
+    line-height: calc(22px * 1.6)
+}

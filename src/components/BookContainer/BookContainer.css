@@ -1,0 +1,15 @@
+.BookContainer{
+    background: #E8FDFF
+}
+.BookContainer >div{
+    width:84%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    min-height:200px;
+}
+.BookContainer .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
