@@ -14,7 +14,8 @@
   margin-top: 8px;
 }
 .wrapper img {
-  width: 45%;
+  width:45%;
+  max-width: 300px;
 }
 .BookArticle .wrapper {
   display: flex;
