@@ -1,7 +1,6 @@
 .BookArticle .container{
   width: 84%;
   margin: 0 auto;
-  display: flex;
   flex-direction: column;
 }
 .BookArticle h1 {
@@ -13,9 +12,20 @@
 .BookArticle > p {
   margin-top: 8px;
 }
+.wrapper{
+  display: flex;
+  flex-wrap:wrap;
+}
 .wrapper img {
-  width:45%;
-  max-width: 300px;
+  flex:3;
+  margin-bottom: 20px;
+  min-width: 250px;
+  max-height: 500px;
+  max-width: 45%;
+}
+.wrapper .description{
+  flex: 9;
+  min-width: 350px;
 }
 .BookArticle .wrapper {
   display: flex;
@@ -38,4 +48,16 @@
 .BookArticle .description p{
     font-size: 22px;
     line-height: calc(22px * 1.6)
+}
+@media only screen and (max-width: 900px){
+  .influencers .container> div{
+    justify-content: center
+  }
+  .wrapper{
+    justify-content: center;
+  }
+  .BookArticle .container{
+    width:calc(100% - 32px)
+  }
+
 }
